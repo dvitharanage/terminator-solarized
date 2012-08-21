@@ -12,7 +12,7 @@ A color theme for [terminator](http://www.tenshu.net/terminator/) using Ethan Sc
 ## Usage
 Install the terminiator configuration file:
 
-    # cp config ~/.config/terminator/
+    `cp config ~/.config/terminator/`
 
 Modify the defaults stanza within the terminator configuration file to select your default(s)
 
