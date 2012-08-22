@@ -16,8 +16,7 @@ Install the terminator configuration file:
 
 Modify the defaults stanza within the terminator configuration file to select your default(s)
 
-    # vim ~/.config/terminator/config
-
+Palettes are as follows:
 
     [profiles]
       [[default]]
