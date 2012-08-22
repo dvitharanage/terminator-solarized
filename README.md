@@ -14,7 +14,17 @@ Install the terminator configuration file:
 
     # cp config ~/.config/terminator/
 
-Modify the defaults stanza within the terminator configuration file to select your default(s)
+IMPORTANT: Modify the defaults stanza within the terminator configuration file to select your default(s). For example, change the profile line from default in the following:
+
+    [layouts]
+      [[default]]
+        [[[child1]]]
+          type = Terminal
+          parent = window0
+          profile = solarized-dark
+        [[[window0]]]
+          type = Window
+          parent = ""
 
 Palettes are as follows:
 
